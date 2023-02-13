@@ -1,0 +1,14 @@
+.login-page-wrapper {
+  .full-page {
+    background-image: url("../../figma_img/login_page.jpg");
+    min-height: 100vh !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .page-heading {
+    font-size: 50px;
+    font-weight: 800;
+    color: aliceblue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+}

@@ -1,0 +1,84 @@
+.Dashboard-menu-wrapper {
+  .Topheader {
+    height: 300px;
+    background-size: cover;
+    background-image: url("../../figma_img/signup-img.jpg");
+  }
+  .topheading {
+    padding-top: 5%;
+    font-size: 75px;
+    color: aquamarine;
+    font-family: auto;
+    font-weight: 800;
+    background: -webkit-linear-gradient(
+      rgb(9, 197, 204),
+      rgb(2, 181, 44),
+      rgb(166, 242, 14)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .ofr-iage {
+    padding-top: 5%;
+    height: 300px;
+    font-weight: 800;
+    font-size: 60px;
+    font-family: fantasy;
+    background-image: url("../../figma_img/bg.jpg");
+  }
+  th,
+  td {
+    border: 1px solid;
+    min-width: 40px;
+    text-align: center;
+  }
+
+  #portal .container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .container .modal {
+    z-index: 1;
+    width: 350px;
+    height: 220px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    position: relative;
+    animation: animate 0.3s;
+  }
+  .modal button {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    padding: 8px 11px;
+    background: crimson;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  @keyframes animate {
+    from {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  .formlbl {
+    padding-top: "5px";
+  }
+}

@@ -1,0 +1,28 @@
+.product-card-wrapper {
+  .full-card {
+    margin-top: 3%;
+    margin-left: 3%;
+  }
+  .card {
+    background-image: url("");
+  }
+  .card-heading {
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  .card-content {
+    display: flex;
+    font-weight: 700;
+  }
+  .stricon {
+    text-align: start;
+  }
+  .crdDetails {
+    text-align: start;
+  }
+  .footerContent {
+    display: flex !important;
+    margin-left: 3%;
+  }
+}

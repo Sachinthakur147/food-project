@@ -1,0 +1,17 @@
+.signup-page-wrapper {
+  .textfield {
+    background-color: rgb(153, 154, 154);
+  }
+  .signup-grid {
+    background-image: url("../../figma_img/signup-img.jpg");
+    min-height: 100vh !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .page-heading {
+    font-size: 50px;
+    font-weight: 800;
+
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+}
